@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hero Section</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome...</h1>
+            <p>Jelajahi dunia baru dengan inovasi dan teknologi terkini yang kami hadirkan</p>
+        </div>
+        <img src="" alt="Hero Image" class="hero-image">
+    </section>
+</body>
+</html>
+
+<style>
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('cosmic-nebula-background-with-radiant-stars-and-colorful-cloud-formations-photo.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 0;
+    text-align: center;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.hero-image {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 150px;
+}
+
+@media (min-width: 768px) {
+    .hero-content {
+        text-align: left;
+    }
+    
+    .hero-image {
+        width: 250px;
+    }
+}
+</style>
